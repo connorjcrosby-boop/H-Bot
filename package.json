@@ -1,15 +1,13 @@
 {
-  "name": "discord-bot",
+  "name": "my-discord-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "eslint.config copy.js",
+  "description": "A Discord bot that deletes replied messages and warns users",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Hbot2.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.22.1"
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
   }
 }
